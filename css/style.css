@@ -19,13 +19,16 @@
 }
 
 @keyframes animacao{
-       0%{margin-left: 0%;}
-      20%{margin-left: 0%;}
-      25%{margin-left: -100%;}
-      45%{margin-left: -100%;}
-      50%{margin-left: -200%;}
-      70%{margin-left: -200%;}
-      75%{margin-left: -300%;}
-      95%{margin-left: -300%;}
-     100%{margin-left: -400%;}
+          0%{margin-left: 0%;}
+          9%{margin-left: 0%;}
+      18%{margin-left: -100%;}
+      27%{margin-left: -100%;}
+      36%{margin-left: -200%;}
+      45%{margin-left: -200%;}
+      54%{margin-left: -300%;}
+      63%{margin-left: -300%;}
+      72%{margin-left: -400%;} 
+      81%{margin-left: -400%;}  
+      90%{margin-left: -500%;}  
+      99%{margin-left: -500%;}
 }
