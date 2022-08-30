@@ -1,16 +1,26 @@
+.body{
+    background-image: url(https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-papel-de-espaco-de-design_53876-147806.jpg?size=626&ext=jpg&ga=GA1.2.1409163287.1661796490);
+}
 .carrossel{
-    width: 640px;
-    height: 360px;
+    width: 750px;
+    height: 400px;
     overflow: hidden;
+    border-radius: 30px;
+    margin-top: 180px;
+    margin-left: 400px;
+    border: 5px;
+    border-color: blueviolet;
+
 }
 
 .carrossel .fotos{
-    width: 500%;
-    animation: animacao 30s infinite;
+    width: 1100%;
+    animation: animacao 35s infinite;
 }
 
 .carrossel .fotos img{
-    width: 20%;
+    width: 746px;
+    height: 400px;
 }
 
 @keyframes animacao{
@@ -35,4 +45,9 @@
    90%{margin-left: -900%}
    95%{margin-left: -900%}     
    100%{margin-left: -1000%;}
+
+}
+.a{
+    width: 740px;
+    height: 360px;
 }
